@@ -1,0 +1,17 @@
+<div class="card">
+  <div class="card-header">Ajout secteur</div>
+  <div class="card-body">
+    <div class="form-group">
+      <label>id</label>
+      <input type="text" class="form-control" [(ngModel)]="secteur.id">
+    </div>
+    <div class="form-group">
+      <label>label</label>
+      <input type="text" class="form-control" [(ngModel)]="secteur.label">
+    </div>
+  </div>
+  <div class="card-footer">
+    <button class="btn btn-block btn-outline-primary" (click)="save()">Add</button>
+  </div>
+
+</div>
